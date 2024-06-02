@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration Form</title>
+</head>
+<body>
+	<form action="StudentServlet" method="post">
+		Enter your Name: <text type = "text" name = "fullName">Enter your Name </text> <br></br>
+		
+		Select Gender:  <input type="radio" name="gender" id="male" value="m"></input> <br></br>
+            			<input type="radio" name="gender" id="female" value="f"></input> <br></br>
+            			<input type="radio" name="gender" id="other" value="o"></input> <br></br>
+        
+        Select Hobbies: <input type="checkbox" name="Instagram" >Instagram</input> <br></br>
+        				<input type="checkbox" name="FB">FB </input> <br></br>
+        				<input type="checkbox" name="X">X </input> <br></br>
+        				
+       	Select your City: <select id="cities" name="cities">
+        					<option value="Ahmedabad">Ahmedabad</option>
+        					<option value="Surat">Surat</option>
+        					<option value="Vadodara">Vadodara</option>
+        					<option value="Rajkot">Rajkot</option>
+    					  </select>
+        				
+        Enter your Address: <textarea name="address"> Enter your address </textarea>
+        
+        <input type="submit" value="submit"></input>
+        				
+        				
+            
+		
+	</form>
+</body>
+</html>
